@@ -1,0 +1,19 @@
+{
+	"name": "wret-beacon-rebalance-mod",
+	"version": "2.0.3",
+	"title": "Beacon Rebalance",
+	"author": "Wretlaw120",
+	"description": "Beacon rebalance mod that emulates the balance of Space Exploration's beacons, with an optional overload mechanic.",
+	"factorio_version": "2.0",
+	"dependencies": [
+		"base", 
+		"! beacon-overhaul", 
+		"! beacon-interference", 
+		"! space-exploration", 
+		"? FactorioExtended-Plus-Module", 
+		"? Krastorio2", 
+		"? PickerDollies",
+		"? bobmodules",
+		"? SeaBlock"
+	]
+}
