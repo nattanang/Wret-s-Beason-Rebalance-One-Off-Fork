@@ -1,8 +1,8 @@
 {
-	"name": "wret-beacon-rebalance-mod-one-time-bob's-module-fork",
+	"name": "wret-beacon-rebalance-mod-bob's-module-one-time-fork",
 	"version": "1.0",
 	"title": "Beacon Rebalance: Bob's Module Fork",
-	"author": "Wretlaw120",
+	"author": "nattanang",
 	"description": "A fork of Beacon rebalance mod that fix the compatibility of this mod & Bob's Module since the author was absent, if this mod crashed, feels free to edit this mod since this mod is using MIT license",
 	"factorio_version": "2.0",
 	"dependencies": [
