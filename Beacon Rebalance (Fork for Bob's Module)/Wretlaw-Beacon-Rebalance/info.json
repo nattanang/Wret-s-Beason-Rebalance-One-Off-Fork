@@ -1,6 +1,6 @@
 {
 	"name": "wret-beacon-rebalance-mod-bobs-module-fork",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"title": "Beacon Rebalance Bob's Module Fork",
 	"author": "nattanang",
 	"description": "A fork of Beacon rebalance mod that fix the compatibility of this mod & Bob's Module since the author was absent, if this mod crashed, feels free to edit this mod since this mod is using MIT license",
