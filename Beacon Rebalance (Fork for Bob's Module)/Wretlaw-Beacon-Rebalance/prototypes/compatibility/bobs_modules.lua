@@ -37,7 +37,7 @@ end
 if settings.startup["wret-overload-enable-beaconmk3"].value == true then
 
     data.raw["recipe"]["wr-beacon-3"].ingredients = {{"bob-beacon-3", 1}}
-    for _, ingredient in pairs(data.raw["recipe"]["wr-beacon-2"].ingredients) do
+    for _, ingredient in pairs(data.raw["recipe"]["bob-beacon-3"].ingredients) do
         if not string.find((ingredient.name or ingredient[1]), "beacon") then
             table.insert(data.raw["recipe"]["bob-beacon-3"].ingredients, {type = ingredient.type, ingredient.name, ingredient.amount * cost_multiplier})
         end
