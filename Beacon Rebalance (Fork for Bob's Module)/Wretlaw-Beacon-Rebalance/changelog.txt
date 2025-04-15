@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.5
+Version: 1.0.6
 Date: 15. 04. 2025
   Changes:
     - Try to fix beacon problem (Dealing with receipe (maybe I'm messup with it), number of module and distribution size (Try to get as close as original as I can))
