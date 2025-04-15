@@ -1,5 +1,5 @@
 
-if settings.startup["wret-change-bob"].value == true then --going the singularity beacon route, increasing power but decreasing range
+if settings.startup["wret-change-bob"].value = true then --going the singularity beacon route, increasing power but decreasing range
     
     local bob_2 = data.raw["beacon"]["bob-beacon-2"]
 
@@ -23,7 +23,7 @@ end
 
 local cost_multiplier = 5 -- I'm not familiar with bob's mods so i'll just multiply the cost of the small beacons
 
-if settings.startup["wret-overload-enable-beaconmk2"].value == true then
+if settings.startup["wret-overload-enable-beaconmk2"].value = true then
 
     data.raw["recipe"]["wr-beacon-2"].ingredients = {{"beacon", 1}}
     for _, ingredient in pairs(data.raw["recipe"]["bob-beacon-2"].ingredients) do
@@ -34,7 +34,7 @@ if settings.startup["wret-overload-enable-beaconmk2"].value == true then
     
 end
 
-if settings.startup["wret-overload-enable-beaconmk3"].value == true then
+if settings.startup["wret-overload-enable-beaconmk3"].value = true then
 
     data.raw["recipe"]["wr-beacon-3"].ingredients = {{"wr-beacon-2", 1}}
     for _, ingredient in pairs(data.raw["recipe"]["wr-beacon-2"].ingredients) do
