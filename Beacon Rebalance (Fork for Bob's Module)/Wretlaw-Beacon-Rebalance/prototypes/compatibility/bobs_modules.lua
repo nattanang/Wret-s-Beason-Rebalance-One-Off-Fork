@@ -4,7 +4,7 @@ if settings.startup["wret-change-bob"].value == true then --going the singularit
     local bob_2 = data.raw["beacon"]["bob-beacon-2"]
 
     bob_2.module_slots = 15
-    bob_2.module_info_max_icons_per_row = 4
+    bob_2.module_info_max_icons_per_row = 5
     bob_2.module_info_max_icon_rows = 3
     bob_2.distribution_effectivity = .75
     bob_2.supply_area_distance = data.raw["beacon"]["wr-beacon-2"].supply_area_distance
@@ -13,8 +13,8 @@ if settings.startup["wret-change-bob"].value == true then --going the singularit
     local bob_3 = data.raw["beacon"]["bob-beacon-3"]
 
     bob_3.module_slots = 20
-    bob_3.module_info_max_icons_per_row = 4
-    bob_3.module_info_max_icon_rows = 3
+    bob_3.module_info_max_icons_per_row = 5
+    bob_3.module_info_max_icon_rows = 4
     bob_3.distribution_effectivity = 1
     bob_3.supply_area_distance = data.raw["beacon"]["wr-beacon-3"].supply_area_distance
     bob_3.energy_usage = "3MW"
