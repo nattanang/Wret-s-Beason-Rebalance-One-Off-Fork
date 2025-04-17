@@ -75,7 +75,7 @@ data:extend({
         type = "bool-setting",
         name = "wret-block-bob",
         setting_type = "startup",
-        default_value = true,
+        default_value = false,
 		order = "mbob1",
     },
 	{
