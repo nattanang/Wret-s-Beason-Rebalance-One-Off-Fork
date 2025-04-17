@@ -7,7 +7,8 @@
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base",
-		"bobmodules",
+		"Space Age",
+		"?? bobmodules",
 		"! beacon-overhaul",
 		"! beacon-interference", 
 		"! space-exploration",
