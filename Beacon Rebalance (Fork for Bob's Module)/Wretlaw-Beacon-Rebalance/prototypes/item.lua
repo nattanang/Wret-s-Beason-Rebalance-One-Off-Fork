@@ -22,13 +22,13 @@ beacon3.icons = {
 	{icon = "__wret-beacon-rebalance-mod__/graphics/icon/three.png", icon_size = 64, icon_mipmaps = 4, scale = .25, shift = {-8, 8}}
 }
 
---[[beacon mk1 (done in classic beacon part)
+--beacon mk1 (done in classic beacon part)
 local beacon = data.raw["item"]["beacon"]
 beacon.icon = nil
 beacon.icons = {
 	{icon = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/icon/beacon.png", icon_size = 64, icon_mipmaps = 4},
 	{icon = "__wret-beacon-rebalance-mod__/graphics/icon/one.png", icon_size = 64, icon_mipmaps = 4, scale = .25, shift = {-8, 8}}
-}]]
+}
 
 if settings.startup["wret-overload-enable-beaconmk2"].value == true then
 data:extend{
