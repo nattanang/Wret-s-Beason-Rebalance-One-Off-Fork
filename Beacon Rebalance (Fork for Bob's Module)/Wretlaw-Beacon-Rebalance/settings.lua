@@ -55,4 +55,12 @@ data:extend({
         default_value = true,
 		order = "mbob2",
     },
+  {
+    type = "bool-setting",
+    name = "classic-beacon-do-high-res",
+    setting_type = "startup",
+    default_value = false,
+    order = "a-a"
+  }
+})
 })
