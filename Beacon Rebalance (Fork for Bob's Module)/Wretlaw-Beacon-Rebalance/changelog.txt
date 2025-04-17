@@ -2,7 +2,7 @@
 Version: 1.0.10
 Date: 17. 04. 2025
   Changes:
-    - Try to fix beacon problem (Fix some code (maybe?)
+    - Try to fix beacon problem (Fix some code (maybe?))
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.9
 Date: 15. 04. 2025
