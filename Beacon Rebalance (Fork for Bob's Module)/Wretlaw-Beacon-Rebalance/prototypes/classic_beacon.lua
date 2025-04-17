@@ -8,7 +8,7 @@
 -- Technology icon
 
 local beacon_technology = util.table.deepcopy(data.raw.technology["effect-transmission"])
-beacon_technology.icon = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/technology/effect-transmission.png"
+beacon_technology.icon = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/technology/effect-transmission.png"
 beacon_technology.icon_size = 128
 beacon_technology.icon_mipmaps = nil
 
@@ -17,18 +17,18 @@ local beacon_item = util.table.deepcopy(data.raw["item"]["beacon"])
 if settings.startup["wret-overload-enable-beaconmk2"].value == true then
   beacon_item.icon = nil
   beacon_item.icons = {
-    {icon = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/icon/beacon.png", icon_size = 64, icon_mipmaps = 4},
-    {icon = "__wret-beacon-rebalance-mod__/graphics/icon/one.png", icon_size = 64, icon_mipmaps = 4, scale = .25, shift = {-8, 8}}
+    {icon = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/icon/beacon.png", icon_size = 64, icon_mipmaps = 4},
+    {icon = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/icon/one.png", icon_size = 64, icon_mipmaps = 4, scale = .25, shift = {-8, 8}}
   }
 else
-  beacon_item.icon = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/icon/beacon.png"
+  beacon_item.icon = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/icon/beacon.png"
 end
 beacon_item.icon_size = 64
 beacon_item.icon_mipmaps = 4
 
 -- Entity icon
 beacon_fake = util.table.deepcopy(data.raw["beacon"]["beacon"])
-beacon_fake.icon = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/icon/beacon.png"
+beacon_fake.icon = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/icon/beacon.png"
 beacon_fake.icon_size = 64
 beacon_fake.icon_mipmaps = 4
 
@@ -46,7 +46,7 @@ beacon_fake.graphics_set = {
                 layers = {
                     -- Base
                     {
-                      filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base.png",
+                      filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-base.png",
                       width = 232,
                       height = 186,
                       shift = util.by_pixel(11, 1.5),
@@ -54,7 +54,7 @@ beacon_fake.graphics_set = {
                     },
                     -- Shadow
                     {
-                      filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
+                      filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
                       width = 232,
                       height = 186,
                       shift = util.by_pixel(11, 1.5),
@@ -72,7 +72,7 @@ beacon_fake.graphics_set = {
                 layers = {
                     -- Base
                     {
-                      filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna.png",
+                      filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna.png",
                       width = 108,
                       height = 100,
                       line_length = 8,
@@ -83,7 +83,7 @@ beacon_fake.graphics_set = {
                     },
                     -- Shadow
                     {
-                      filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
+                      filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
                       width = 126,
                       height = 98,
                       line_length = 8,
@@ -106,7 +106,7 @@ beacon_fake.graphics_set = {
 if settings.startup["classic-beacon-do-high-res"] and settings.startup["classic-beacon-do-high-res"].value then
     -- Beacon Base
     beacon_fake.graphics_set.animation_list[1].animation.layers[1].hr_version = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-base.png",
         width = 232,
         height = 186,
         shift = util.by_pixel(11, 1.5),
@@ -114,7 +114,7 @@ if settings.startup["classic-beacon-do-high-res"] and settings.startup["classic-
     }
     -- Beacon Base Shadow
     beacon_fake.graphics_set.animation_list[1].animation.layers[2].hr_version = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
         width = 232,
         height = 186,
         shift = util.by_pixel(11, 1.5),
@@ -123,7 +123,7 @@ if settings.startup["classic-beacon-do-high-res"] and settings.startup["classic-
     }
     -- Beacon Antenna Base
     beacon_fake.graphics_set.animation_list[2].animation.layers[1].hr_version = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna.png",
         width = 108,
         height = 100,
         line_length = 8,
@@ -134,7 +134,7 @@ if settings.startup["classic-beacon-do-high-res"] and settings.startup["classic-
     }
     -- Beacon Antenna Shadow
     beacon_fake.graphics_set.animation_list[2].animation.layers[2].hr_version = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
         width = 126,
         height = 98,
         line_length = 8,
@@ -148,7 +148,7 @@ end
 
 beacon_fake.water_reflection = {
     pictures = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/beacon-reflection.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/beacon-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 28,
@@ -177,7 +177,7 @@ beacon_fake.water_reflection = {
               render_layer = "lower-object",
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 4,
                 width = 50,
                 height = 66,
@@ -191,7 +191,7 @@ beacon_fake.water_reflection = {
               render_layer = "lower-object",
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 3,
                 width = 36,
                 height = 32,
@@ -205,7 +205,7 @@ beacon_fake.water_reflection = {
               render_layer = "lower-object-above-shadow",
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 3,
                 width = 26,
                 height = 12,
@@ -220,7 +220,7 @@ beacon_fake.water_reflection = {
               draw_as_sprite = false,
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 3,
                 width = 56,
                 height = 42,
@@ -237,7 +237,7 @@ beacon_fake.water_reflection = {
               render_layer = "lower-object",
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 4,
                 width = 50,
                 height = 66,
@@ -251,7 +251,7 @@ beacon_fake.water_reflection = {
               render_layer = "lower-object",
               pictures = 
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 3,
                 width = 36,
                 height = 32,
@@ -265,7 +265,7 @@ beacon_fake.water_reflection = {
               render_layer = "lower-object-above-shadow",
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 3,
                 width = 26,
                 height = 12,
@@ -280,7 +280,7 @@ beacon_fake.water_reflection = {
               draw_as_sprite = false,
               pictures =
               {
-                filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/blank.png",
+                filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/blank.png",
                 line_length = 3,
                 width = 56,
                 height = 42,
@@ -305,7 +305,7 @@ beacon_fake.water_reflection = {
         beacon_dupe = table.deepcopy(data.raw["beacon"]["beacon"])
         data.raw["beacon"]["beacon"].icons = {
           {icon = beacon_dupe.icon, icon_size = 64, icon_mipmaps = 4},
-          {icon = "__wret-beacon-rebalance-mod__/graphics/icon/one.png", icon_size = 64, icon_mipmaps = 4, scale = .25, shift = {-8, 8}}
+          {icon = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/icon/one.png", icon_size = 64, icon_mipmaps = 4, scale = .25, shift = {-8, 8}}
         }
         data.raw["beacon"]["beacon"].icon = nil
       end
