@@ -30,7 +30,7 @@ beacon2.beacon_counter = "total"
     -- Beacon2 Base
     beacon2.graphics_set.animation_list[1].animation.layers[1].hr_version = nil
     beacon2.graphics_set.animation_list[1].animation.layers[1] = {
-        filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/beacon2-base.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/beacon2-base.png",
         width = 232,
         height = 186,
         shift = util.by_pixel(11*(4/3), 1.5*(4/3)),
@@ -39,7 +39,7 @@ beacon2.beacon_counter = "total"
     -- Beacon2 Base Shadow
     beacon2.graphics_set.animation_list[1].animation.layers[2].hr_version = nil
     beacon2.graphics_set.animation_list[1].animation.layers[2] = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
         width = 232,
         height = 186,
         shift = util.by_pixel(11*(4/3), 1.5*(4/3)),
@@ -49,7 +49,7 @@ beacon2.beacon_counter = "total"
     -- Beacon2 Antenna Base
     beacon2.graphics_set.animation_list[2].animation.layers[1].hr_version = nil
     beacon2.graphics_set.animation_list[2].animation.layers[1] = {
-        filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/hr-beacon-antenna-green.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/hr-beacon-antenna-green.png",
         width = 108,
         height = 100,
         line_length = 8,
@@ -61,7 +61,7 @@ beacon2.beacon_counter = "total"
     -- Beacon2 Antenna Shadow
     beacon2.graphics_set.animation_list[2].animation.layers[2].hr_version = nil
     beacon2.graphics_set.animation_list[2].animation.layers[2] = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
         width = 126,
         height = 98,
         line_length = 8,
@@ -74,7 +74,7 @@ beacon2.beacon_counter = "total"
 
 beacon2.water_reflection = {
     pictures = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/beacon-reflection.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/beacon-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 28,
@@ -114,7 +114,7 @@ beacon3.beacon_counter = "total"
     -- Beacon3 Base
     beacon3.graphics_set.animation_list[1].animation.layers[1].hr_version = nil
     beacon3.graphics_set.animation_list[1].animation.layers[1] = {
-        filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/beacon3-base.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/beacon3-base.png",
         width = 232,
         height = 186,
         shift = util.by_pixel(11*(4/3), 1.5*(4/3)),
@@ -123,7 +123,7 @@ beacon3.beacon_counter = "total"
     -- Beacon3 Base Shadow
     beacon3.graphics_set.animation_list[1].animation.layers[2].hr_version = nil
     beacon3.graphics_set.animation_list[1].animation.layers[2] = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-base-shadow.png",
         width = 232,
         height = 186,
         shift = util.by_pixel(11*(4/3), 1.5*(4/3)),
@@ -133,7 +133,7 @@ beacon3.beacon_counter = "total"
     -- Beacon3 Antenna Base
     beacon3.graphics_set.animation_list[2].animation.layers[1].hr_version = nil
     beacon3.graphics_set.animation_list[2].animation.layers[1] = {
-        filename = "__wret-beacon-rebalance-mod__/graphics/entity/beacon/hr-beacon-antenna-blue.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/entity/beacon/hr-beacon-antenna-blue.png",
         width = 108,
         height = 100,
         line_length = 8,
@@ -145,7 +145,7 @@ beacon3.beacon_counter = "total"
     -- Beacon3 Antenna Shadow
     beacon3.graphics_set.animation_list[2].animation.layers[2].hr_version = nil
     beacon3.graphics_set.animation_list[2].animation.layers[2] = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/hr-beacon-antenna-shadow.png",
         width = 126,
         height = 98,
         line_length = 8,
@@ -158,7 +158,7 @@ beacon3.beacon_counter = "total"
 
 beacon3.water_reflection = {
     pictures = {
-        filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/beacon-reflection.png",
+        filename = "__wret-beacon-rebalance-mod-bobs-module-fork__/classic_beacon_graphics/entity/beacon/beacon-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 28,
@@ -211,7 +211,7 @@ data:extend{
 	{
 		type = 'sprite',
 		name = 'beacon-overload',
-		filename = '__wret-beacon-rebalance-mod__/graphics/icon/beacon-overload.png',
+		filename = '__wret-beacon-rebalance-mod-bobs-module-fork__/graphics/icon/beacon-overload.png',
 		priority = 'extra-high-no-scale',
 		width = 64,
 		height = 64,
