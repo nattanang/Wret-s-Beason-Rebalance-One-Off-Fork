@@ -99,7 +99,11 @@ beacon_fake.graphics_set = {
     }
 }
 
-if settings.startup["classic-beacon-do-high-res"].value == true then
+-- Original problematic code (likely something like):
+-- if settings.startup["classic-beacon-do-high-res"].value then
+
+-- Fixed version:
+if settings.startup["classic-beacon-do-high-res"] and settings.startup["classic-beacon-do-high-res"].value then
     -- Beacon Base
     beacon_fake.graphics_set.animation_list[1].animation.layers[1].hr_version = {
         filename = "__wret-beacon-rebalance-mod__/classic_beacon_graphics/entity/beacon/hr-beacon-base.png",
