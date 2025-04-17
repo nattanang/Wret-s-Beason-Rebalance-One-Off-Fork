@@ -2,7 +2,7 @@
 Version: 1.0.15
 Date: 17. 04. 2025
   Changes:
-    - Deleting all compatibility except Space Age & Bob's Module (I intend this mod to do so
+    - Deleting all compatibility except Space Age & Bob's Module (I intend this mod to do so)
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.14
 Date: 17. 04. 2025
